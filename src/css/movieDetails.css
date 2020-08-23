@@ -1,0 +1,118 @@
+.movie-details-main-wrapper {
+    width: 100%;
+    display: flex;
+    min-height: 90vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 70px;
+}
+.movie-details-inner-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    box-shadow: 0px -1px 4px 0px rgba(85,85,85,1);
+    border-radius: 10px;
+    padding: 30px;
+}
+label.movie-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+img.movie-details-poster {
+    border-radius: 8px;
+}
+.movie-details-right-wrapper {
+    padding: 30px;
+}
+
+.movie-details-right-wrapper h6 {
+    margin: 6px 0px;
+    color: #888888;
+    font-size: 11px;
+}
+.movie-ratings {
+    margin: 10px 0px;
+}
+.movie-sub-details-item-wrapper {
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+}
+.movie-sub-details-wrapper {
+    margin: 20px 0px;
+}
+.movie-sub-details-title {
+    color: #C8C9CF;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.movie-details-desc {
+    width: 90%;
+    color: #828593;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.movie-sub-details-value {
+    font-size: 13px;
+    color: #828593;
+    font-weight: bold;
+}
+.favourite-btn-wrapper {
+    max-width: 100px;
+}
+
+.movie-ratings-main-wrapper {
+    border-radius: 8px;
+    display: flex;
+    padding: 20px;
+    border: 1px solid #878787;
+    margin-top: 20px;
+}
+.movie-ratings-inner-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.movie-ratings-item-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.star{
+   color:red;
+}
+.movie-details-left-wrapper {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .movie-details-inner-wrapper{
+        flex-direction: column;
+    }
+    .movie-ratings-inner-wrapper{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    img.movie-details-poster {
+        border-radius: 8px;
+        width: 100%;
+    }
+    .movie-details-inner-wrapper{
+        width: 70%;
+    }
+    .movie-details-right-wrapper{
+        padding: 20px 0px;
+    }
+    .movie-details-main-wrapper {
+        padding-top: 350px;
+        margin-bottom: 30px;
+    }
+}
